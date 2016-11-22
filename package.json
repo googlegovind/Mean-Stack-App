@@ -1,7 +1,7 @@
 {
   "name": "mean-simple-seed",
   "version": "1.0.0",
-  "description": "Seed repo for an absolute bare-bones MEAN (MongoDB + node.js + Express + AngularJS) single-page multi-view app (MongoDB can be replaced w/ other db)",
+  "description": "MEAN (MongoDB + node.js + Express + AngularJS) single-page multi-view app (MongoDB can be replaced w/ other db)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
   "license": "",
   "dependencies": {
     "express": "^4.10.0",
-    "mongoose" : "~3.8.0"
+    "mongoose" : "~3.8.0",
+    "socket.io" :"*"
   }
 }
