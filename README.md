@@ -20,6 +20,9 @@
 
 ## Running the application
 
+1.npm install
+2.bower install
+
 To run the node.js server locally, in the root directory:
 
     node server.js
