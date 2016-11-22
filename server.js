@@ -156,7 +156,7 @@ io.on('connection', function (socket){
    //  // socket.emit('data',data) 
    //      }, 1000); 
    // }
-  var inetrvel; 
+  var intervel; 
    socket.on('start', function() {
    	var i = 0;
     intervel =	setInterval(function () { 
